@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background-image: url(/images/donation16.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    text-align: center;
+}
+.banner{
+    margin: 0 200px;
+    padding-bottom: 200px;
+}
+.banner-title{
+    color: #ffffffff;
+    font-weight: 600;
+    font-size: 85px;
+    padding: 200px 0 0;
+    margin-bottom: 20px;
+}
+.banner-description{
+    color: #ffffffee;
+    text-align: center;
+    padding: 0 200px;
+    font-size: 20px;
+}
+.btn-primary{
+    margin-top: 20px;
+    background: #e24e4e;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 18px 35px;
+    border: 0;
+    height: 64px;
+    border-radius: 7px;
+    color: #ffffff;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: #ffffff;
+    background: green;
+    text-align: center;
+}
+
+.donate {
+    margin: 100px 0;
+}
+.section-title{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 100px;
+}
+.section-description{
+    color: #8a8a8a;
+    text-align: center;
+    padding: 0 300px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.amount-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 50px 50px;
+    padding: 0 250px;
+}
+.amount-btn {
+    color: #868383;
+    background: #b4b4b41a;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 35px;
+    font-weight: 700;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.amount-btn:hover{
+    color: #e24e4e;
+    border: 2px solid #e24e4e;
+    border-radius: 10px;
+    background: #e24e4e27;
+}
+.input-amount{
+    text-align: center;
+    margin: 0 100px;
+    padding: 20px 250px;
+}
+input[type="number"]{
+    text-align: center;
+    color:#868383;
+    font-size: 24px;
+    border: none;
+    width: 100%;
+    border-bottom: 2px solid #868383;
+    padding: 10px;
+    outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.donate-plan{
+    padding: 0 100px;
+}
+.plan-container{
+    display: flex;
+    margin: 50px 80px;
+    justify-content: space-between;
+    gap: 24px;
+}
+.plan-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.plan-description{
+    font-size: 16px;
+    text-align: left;
+    color: #8a8a8a;
+}
+.family-plan{
+    background: #ecffdcc9;
+    padding: 40px 20px;
+    border-radius: 5px;
+}
+.shelter-plan{
+    background: #ffe3dcc9;
+    padding: 40px 20px;
+    border-radius: 5px;
+}
+.education-plan{
+    background: #dcf4ffc9;
+    padding: 40px 20px;
+    border-radius: 5px;
+}
+
+.lives-container{
+    display: flex;
+    margin-left:150px;
+    margin-right:150px;
+    margin-top: 150px;
+    justify-content: space-around;
+    gap: 50px;
+}
+.lives-depend{
+    padding-top: 50px;
+    padding: 50px 30px;
+}
+img {
+    border-radius: 10px;
+}
+.lives-title {
+    text-align: left;
+    font-size: 35px;
+    font-weight: 700;
+}
+.lives-description{
+    text-align: left;
+    color: #8a8a8a;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.btn-secondary{
+    margin-top: 20px;
+    background: #e24e4e;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 18px 35px;
+    border: 0;
+    height: 64px;
+    border-radius: 7px;
+    color: #ffffff;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+form{
+    text-align: center;
+    background: #e2e47d;
+    margin: 50px 200px;
+    padding: 100px ;
+}
+
+input[type="email"]{
+    width: 30%;
+    height: 64px;
+    border: 0;
+    padding: 0 20px;
+    font-size: 20px;
+    background: #c0c0c0ea;
+    outline: none;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.btn-subscribe{
+    margin-top: 20px;
+    background: #e24e4e;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 18px 35px;
+    border: 0;
+    height: 64px;
+    border-top-right-radius:  7px;
+    border-bottom-right-radius:  7px;
+    color: #ffffff;
+    /* transition-duration: 0.3s; */
+    cursor: pointer;
+    margin-left: -5px;
+}
+.footer{
+    background: #000;
+    padding: 50px 0;
+}
