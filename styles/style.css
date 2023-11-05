@@ -45,6 +45,15 @@
     text-align: center;
 }
 
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 130px;
+
+}
 .donate {
     margin: 100px 0;
 }
@@ -52,45 +61,44 @@
     font-size: 35px;
     text-align: center;
     font-weight: 700;
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 .section-description{
     color: #8a8a8a;
     text-align: center;
-    padding: 0 300px;
+    padding: 0 200px;
     font-size: 20px;
     margin-top: 30px;
 }
 .amount-container{
     display: flex;
-    justify-content: center;
-    gap: 24px;
-    margin: 50px 50px;
-    padding: 0 250px;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 50px 100px;
+    /* padding: 0 20px; */
 }
 .amount-btn {
     color: #868383;
     background: #b4b4b41a;
     border: 0;
     border-radius: 5px;
-    padding: 10px;
+    padding: 0 18px ;
     font-size: 35px;
     font-weight: 700;
     height: 150px;
-    width: 150px;
+    width: 300px;
     cursor: pointer;
-    transition-duration: 0.3s;
+    display: inline;
 }
 .amount-btn:hover{
     color: #e24e4e;
-    border: 2px solid #e24e4e;
-    border-radius: 10px;
-    background: #e24e4e27;
+    /* border: 2px solid #e24e4e; */
+    border-radius: 5px;
+    background: #e24e4e57;
 }
 .input-amount{
     text-align: center;
-    margin: 0 100px;
-    padding: 20px 250px;
+    margin: 30px 200px;
 }
 input[type="number"]{
     text-align: center;
@@ -108,11 +116,11 @@ input::-webkit-inner-spin-button {
 }
 
 .donate-plan{
-    padding: 0 100px;
+    margin: 0 100px;
 }
 .plan-container{
     display: flex;
-    margin: 50px 80px;
+    margin: 50px 50px;
     justify-content: space-between;
     gap: 24px;
 }
@@ -144,9 +152,7 @@ input::-webkit-inner-spin-button {
 
 .lives-container{
     display: flex;
-    margin-left:150px;
-    margin-right:150px;
-    margin-top: 150px;
+    margin: 100px 50px;
     justify-content: space-around;
     gap: 50px;
 }
@@ -185,8 +191,8 @@ img {
 form{
     text-align: center;
     background: #e2e47d;
-    margin: 50px 200px;
-    padding: 100px ;
+    margin: 50px 50px;
+    padding: 100px 50px ;
 }
 
 input[type="email"]{
