@@ -80,7 +80,7 @@ section {
 .amount-btn {
     color: #868383;
     background: #b4b4b41a;
-    border: 0;
+    border: 2px solid transparent; 
     border-radius: 5px;
     padding: 0 18px ;
     font-size: 35px;
@@ -92,7 +92,7 @@ section {
 }
 .amount-btn:hover{
     color: #e24e4e;
-    /* border: 2px solid #e24e4e; */
+    border: 2px solid #e24e4e;
     border-radius: 5px;
     background: #e24e4e57;
 }
